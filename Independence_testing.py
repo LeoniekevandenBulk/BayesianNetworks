@@ -113,7 +113,6 @@ data.columns = ['Age','Workclass','Education', 'Marital-and-spouse-status','Occu
                 'Race','Sex','Capital-change','Hours-per-week', 'Native-continent','50K']
 
 # Make estimator for chi^2 test and make list of variables to test (in the form of a list of [variable1, variable2, [(evidence1,value),(evidence2,value) etc.]])
-cbe = ConstraintBasedEstimator(data)
 tests = [#['Age', 'Sex', []],
          #['Age', 'Native-continent', []], 
          #['Native-continent', 'Sex', []],
