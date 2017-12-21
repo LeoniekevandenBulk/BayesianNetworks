@@ -1,9 +1,6 @@
 import pandas
 from scipy.stats import chisquare
 import numpy as np
-from pgmpy.models import BayesianModel
-from pgmpy.factors.discrete import TabularCPD
-from pgmpy.estimators import ConstraintBasedEstimator
 import itertools
 
 ####################
